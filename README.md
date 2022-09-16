@@ -1,4 +1,4 @@
-## 
+## Hello! Welcome to my Github profile, take a look at my skills and what I've been working on:
 <div align="center">
   <a href="https://github.com/joaodavisn">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaodavisn&show_icons=true&theme=radical&include_all_commits=true&count_private=true&bg_color=151617&border_color=3d4145&title_color=00f2ff&text_color=59f7ff&icon_color=00d9ff"/>
