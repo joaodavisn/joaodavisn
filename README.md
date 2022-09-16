@@ -12,7 +12,7 @@
   <img align="center" alt="JDSN-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="JDSN-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="JDSN-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="right" alt="JDSN-pic" height="150" style="border-radius:100px;" src="https://pbs.twimg.com/profile_images/1557383924401176576/_qdjfAGj_400x400.jpg">
+  <img align="right" alt="JDSN-pic" height="120" style="border-radius:100px;" src="https://pbs.twimg.com/profile_images/1557383924401176576/_qdjfAGj_400x400.jpg">
 </div>
   
   ##
