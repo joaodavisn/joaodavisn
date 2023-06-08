@@ -116,7 +116,7 @@ export default function Home() {
               <input className="w-full p-4 rounded-lg mb-2" placeholder="Email" type="email" />
               <textarea className="w-full p-4 h-40 rounded-lg mb-2" placeholder="Content"></textarea>
               <div className='w-full flex flex-row justify-end'>
-                <button onClick={() => sendMail('a', 'b', 'c')} className='w-fit h-fit py-2 px-12 text-gray-100 font-medium bg-orange-600
+                <button onClick={() => sendMail('a', 'b', 'c')} className='w-fit h-fit py-2 px-12 text-gray-100 font-medium ring-inset bg-orange-600
          hover:shadow-md ring-2 ring-orange-400 ease-in-out duration-200 rounded-lg'>
                   Send
                 </button>
