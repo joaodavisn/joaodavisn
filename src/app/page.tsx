@@ -74,7 +74,7 @@ export default function Home() {
               <SkillComponent skillName="Next.js" iconUrl="https://devarticles.in/wp-content/uploads/2021/10/nextjs-log.jpeg" />
               <SkillComponent skillName="TypeScript" iconUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" />
               <SkillComponent skillName="JavaScript" iconUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" />
-              <SkillComponent skillName="HTML 5" iconUrl="https://cdn-icons-png.flaticon.com/512/174/174854.png" />
+              <SkillComponent skillName="HTML 5" iconUrl="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" />
               <SkillComponent skillName="CSS 3" iconUrl="https://logospng.org/download/css-3/logo-css-3-2048.png" />
               <SkillComponent skillName="Figma" iconUrl="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" />
               <SkillComponent skillName="Sass" iconUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" />
