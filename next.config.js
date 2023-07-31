@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    images: {
+      domains: ['em-content.zobj.net'],
+    },
+  };
+  
+  module.exports = nextConfig;
+  

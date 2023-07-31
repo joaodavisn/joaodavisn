@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-textarea {
-    resize: none;
-}
+body {
+    background: white;
+    background-image: radial-gradient(#ededed 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+  }
