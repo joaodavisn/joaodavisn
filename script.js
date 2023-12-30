@@ -1,17 +1,17 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const cursor = document.getElementById('cursor');
-    let x = 0, y = 0;
+// document.addEventListener('DOMContentLoaded', function () {
+//     const cursor = document.getElementById('cursor');
+//     let x = 0, y = 0;
 
-    document.addEventListener('mousemove', function (e) {
-        x = e.pageX;
-        y = e.pageY;
-        cursor.style.transform = `translate(${x}px, ${y}px)`;
-    });
+//     document.addEventListener('mousemove', function (e) {
+//         x = e.pageX;
+//         y = e.pageY;
+//         cursor.style.transform = `translate(${x}px, ${y}px)`;
+//     });
 
-    window.addEventListener('scroll', function () {
-        cursor.style.transform = `translate(${x}px, ${y}px)`;
-    });
-});
+//     window.addEventListener('scroll', function () {
+//         cursor.style.transform = `translate(${x}px, ${y}px)`;
+//     });
+// });
 
 var controller = new ScrollMagic.Controller();
 

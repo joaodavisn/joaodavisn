@@ -8,9 +8,20 @@ html {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    cursor: none;
+    cursor: auto;
     font-family: 'Bricolage Grotesque', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #ff00ff;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #ff00ff;
+    color: #ffffff;
 }
 
 p,
@@ -43,7 +54,7 @@ body {
     position: relative;
 }
 
-.cursor {
+/* .cursor {
     background-image: url('./source/cursor.png');
     position: absolute;
     width: 59px;
@@ -51,7 +62,7 @@ body {
     mix-blend-mode: difference;
     z-index: 9999;
     pointer-events: none;
-}
+} */
 
 .title {
     color: #fff;
@@ -114,10 +125,12 @@ body {
     display: flex;
     padding-right: 30px;
     align-items: center;
+    cursor: pointer;
 }
 
 .arrow-padding {
     padding: 5px;
+    cursor: pointer;
 }
 
 .arrow-down {
@@ -127,6 +140,7 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .scroll-text {
@@ -137,6 +151,7 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    cursor: pointer;
 }
 
 .aboutmeBar {
@@ -364,6 +379,11 @@ body {
     padding: 20px;
 }
 
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+}
+
 .textarea {
     resize: none;
     height: 30vh;
@@ -372,6 +392,8 @@ body {
 .align-button {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .send-button {
     font-family: 'Bricolage Grotesque 48pt Condensed', sans-serif;
@@ -381,10 +403,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.button-container {
-
+    cursor: pointer;
 }
 
 .exclamation {
@@ -393,4 +412,5 @@ body {
     background-image: url('./source/exclamation.png');
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
